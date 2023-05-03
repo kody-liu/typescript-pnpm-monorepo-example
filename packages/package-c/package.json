@@ -7,9 +7,9 @@
     "prettier": "prettier --check src/",
     "prettier:fix": "prettier --write src/",
     "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "yarn lint --fix",
+    "lint:fix": "pnpm lint --fix",
     "verify": "run-p prettier lint",
-    "verify:fix": "yarn prettier:fix && yarn lint:fix",
+    "verify:fix": "pnpm prettier:fix && pnpm lint:fix",
     "build": "tsup src/* --env.NODE_ENV production --dts-resolve"
   },
   "author": "Rahul Tarak",
