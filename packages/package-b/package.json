@@ -20,7 +20,6 @@
     "serve": "vite preview",
     "prettier": "prettier --check src/",
     "prettier:fix": "prettier --write src/",
-    "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "pnpm lint --fix",
     "verify": "run-p prettier lint",
     "verify:fix": "pnpm prettier:fix && pnpm lint:fix"
