@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import dummyFunction from '@monorepo/package-a'
+import dummyFunction2 from '@monorepo/package-c'
 
 import logo from './logo.svg'
 

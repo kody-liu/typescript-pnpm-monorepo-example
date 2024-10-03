@@ -13,7 +13,7 @@
   "author": "Rahul Tarak",
   "license": "MIT",
   "dependencies": {
-    "@monorepo/interfaces": "^1.0.0"
+    "@monorepo/interfaces": "../interface"
   },
   "publishConfig": {
     "access" : "public",

@@ -25,7 +25,8 @@
     "verify:fix": "pnpm prettier:fix && pnpm lint:fix"
   },
   "dependencies": {
-    "@monorepo/package-a": "^1.0.0",
+    "@monorepo/package-a": "../package-a",
+    "@monorepo/package-c": "../package-c",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
